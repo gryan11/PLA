@@ -30,6 +30,8 @@ python scripts/predict_races.py --cache -j `nproc` data/sample_corpus
 ```
 Race predictions will be written a csv `pred_races.csv`. Each prediction to test includes two inputs, `wp_input` and `other_input` along with both a watchpoint instruction address corresponding to a racing write instruction, a sequence of instruction addresses predicted to race with the watchpoint instruction, and the probability associated with the race based on the sample traces in the corpus.
 
+A larger set of traces that can be used to reproduce the races identified in the paper can be downloaded [here](https://1drv.ms/u/s!Ar2a8JVKhr4dlfk41MWnXvEnYzNLIg?e=IDil80).
+
 ## Checking Predictions:
 
 Note: we will add download links for the full evaluation corpus and scripts for race checking to the repository soon.
